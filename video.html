@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone - Video</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__logo">MyTube</div>
+    <input type="text" class="header__search" placeholder="Search">
+    <button class="header__search-button">Search</button>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content video-page">
+    <div class="video-player">
+      <video controls width="100%">
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="video-details">
+        <h1>Sample Video Title</h1>
+        <div class="video-stats">1M views • 1 week ago</div>
+        <p class="video-description">This is a sample description for the video.</p>
+      </div>
+    </div>
+
+    <!-- Sidebar Recommendations -->
+    <aside class="recommendations">
+      <h3>Up next</h3>
+      <div class="recommendation-item">
+        <img src="https://via.placeholder.com/150x100" alt="Thumbnail">
+        <div class="recommendation-info">
+          <div class="recommendation-title">Recommended Video</div>
+          <div class="recommendation-channel">Channel Name</div>
+        </div>
+      </div>
+      <!-- Add more recommendation-item elements here -->
+    </aside>
+  </main>
+</body>
+</html>

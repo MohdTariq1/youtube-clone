@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__logo">MyTube</div>
+    <input type="text" class="header__search" placeholder="Search">
+    <button class="header__search-button">Search</button>
+  </header>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar__item">Home</div>
+    <div class="sidebar__item">Trending</div>
+    <div class="sidebar__item">Subscriptions</div>
+    <div class="sidebar__item">Library</div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="video-grid" id="videoGrid">
+      <!-- Sample Video Cards -->
+      <a href="video.html" class="video-card">
+        <div class="video-thumbnail" style="background-image: url('https://via.placeholder.com/300x180')"></div>
+        <div class="video-info">
+          <div class="video-title">Sample Video Title</div>
+          <div class="video-channel">Channel Name</div>
+          <div class="video-stats">1M views • 1 week ago</div>
+        </div>
+      </a>
+      <!-- Add more video-card elements here -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
